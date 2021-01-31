@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body {
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgb(171, 136, 136);
+    padding: 30px 0;
+}
+
+/* ----------------- ページタイトル -------------------------- */
+header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Title1 {
+    font-size: 28px;
+}
+
+/* --------------- 観光スポットの名前ランキング ------------------------- */
+ol li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* ------------------ ボックス１ ----------------------- */
+.box1 {
+    border: solid 2px purple;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* ------------------ ボックス2 ------------------ */
+.Title2 {
+    font-size: 25px;
+    color:  rgb(191, 73, 93);
+    border-bottom: solid 2px rgb(191, 73, 93);
+    border-left: solid 6px rgb(191, 73, 93);
+    padding-left: 12px;
+}
+
+/* ------------------ ボックス3 ------------------ */
+.Title3 {
+    font-size: 20px;
+    color: green;
+    padding-left: 12px;
+    border-bottom: solid 2px green;
+    border-left: solid 6px green;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ------------------ 画像 隙間 ------------------- */
+img {
+    width: 250px;
+    height: 250px;
+}
+/* ------------------ 画像 大きさ --------------------- */
+.item_image {
+    width: 225px;
+    height: 225px;
+}
+
+/* ------------------ 図の説明 ------------------ */
+.box1 ul li {
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+/* ------------------ 引用・参考文献 -------------------- */
+.orei {
+    padding-top: 20px;
+    border-bottom: solid 2px rgb(191, 73, 93);
+}
+
+.sankou {
+    padding-top: 1px;
+}
+/* ---------------その建物に行きたい理由-------------------- */
+.reason {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* --------------- ボックス2 --------------------------- */
+.box2 {
+    border: solid 2px aqua;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* -------------- ボックス3 -------------------- */
+footer {
+    border: solid 2px blue;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* --------------- マップ --------------- */
+.map {
+    text-align: center; 
+}
+
+
+.addressTitle {
+    padding-left: 12px;
+    border-left: solid 6px gray;
+    border-bottom: solid 2px gray;
+}
+
+.addressTitle p {
+    padding-left: 12px;
+}
+
+.number {
+    vertical-align: 1100%;
+    padding-right: 5px;
+}
+
+/* マップのエラーについてエラーが出ないように修正する */
+iframe.gmap {
+    border: 0;
+    width: 225px;
+    height: 225px;
+}
